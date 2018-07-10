@@ -1,0 +1,51 @@
+      html,body{
+        margin:0;
+        padding:0;
+      }
+      .text {
+        width:50%;
+        background:#dedede;
+        padding:10px;
+      }
+      .text p{
+        color:#656565;
+        font:14px "Helvetica";
+      }
+      h3{
+        font:18px Helvetica;
+      }
+      h1{
+        font:28px "Oswald", sans-serif;
+        font-weight:bold;
+        line-height:18px;
+        letter-spacing:3px;
+      }
+      #header{
+        width:100%;
+        margin-top:60px;
+        margin-bottom:40px;
+        background-color:#fefe23;
+      }
+      .nav{
+        width:50%;
+        background:#787878;
+        padding:0 10px 0 10px;
+      }
+      .nav ul{
+        list-style:none;
+      }
+      .nav ul li{
+        color:#fff;
+        display:inline;
+        padding:0 20px 0 20px;
+        text-transform:uppercase;
+        font-family:"Oswald", sans-serif;
+      }
+      .nav ul a{
+        text-decoration:none;
+      }
+      .nav ul li:hover{
+        background:#646464;
+        cursor:pointer;
+        transition:background .5s;
+      }
