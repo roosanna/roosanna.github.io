@@ -9,10 +9,12 @@
       }
       .text p{
         color:#656565;
-        font:14px "Helvetica";
+        font-size:14px;
+        font-family: 'Roboto', sans-serif;
       }
       h3{
-        font:18px Helvetica;
+        font-family:'Roboto';
+        font-size:18px;
       }
       h1{
         font:28px "Oswald", sans-serif;
@@ -39,7 +41,8 @@
         display:inline;
         padding:0 20px 0 20px;
         text-transform:uppercase;
-        font-family:"Oswald", sans-serif;
+        font-family: 'Oswald';
+        font-size:115%;
       }
       .nav ul a{
         text-decoration:none;
@@ -47,5 +50,5 @@
       .nav ul li:hover{
         background:#646464;
         cursor:pointer;
-        transition:background .5s;
+        transition:background 1s;
       }
