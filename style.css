@@ -3,7 +3,7 @@
         padding:0;
       }
       .text {
-        width:1000px;
+        width:50%;
         background:#dedede;
         padding:10px;
       }
@@ -29,7 +29,7 @@
         background-color:#fefe23;
       }
       .nav{
-        width:1000px;
+        width:50%;
         background:#787878;
         padding:0 10px;
       }
