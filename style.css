@@ -1,54 +1,36 @@
-      html,body{
-        margin:0;
-        padding:0;
-      }
-      .text {
-        width:50%;
-        background:#dedede;
-        padding:10px;
-      }
-      .text p{
-        color:#656565;
-        font-size:14px;
-        font-family: 'Roboto', sans-serif;
-      }
-      h3{
-        font-family:'Roboto';
-        font-size:18px;
-      }
-      h1{
-        font:28px "Oswald", sans-serif;
-        font-weight:bold;
-        line-height:18px;
-        letter-spacing:3px;
-      }
-      #header{
-        width:100%;
-        margin-top:60px;
-        margin-bottom:40px;
-        background-color:#fefe23;
-      }
-      .nav{
-        width:50%;
-        background:#787878;
-        padding:0 10px;
-      }
-      .nav ul{
-        list-style:none;
-      }
-      .nav ul li{
-        color:#fff;
-        display:inline;
-        padding:0 20px;
-        text-transform:uppercase;
-        font-family: 'Oswald';
-        font-size:115%;
-      }
-      .nav ul a{
-        text-decoration:none;
-      }
-      .nav ul li:hover{
-        background:#646464;
-        cursor:pointer;
-        transition:background 1s;
-      }
+header, footer, nav, main{
+  width: 500px;
+  margin: auto;
+}
+
+header{
+  margin-bottom: -20px;
+}
+.navigation{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #454545;
+  opacity: 0.9;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.navigation li{
+  line-height: 1.2em;
+  padding: 10px;
+}
+
+.navigation li:hover{
+  background-color: #363636;
+  transition: 0.5s;
+}
+
+body{
+  font-size: 1.1em;
+  color: #454545;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: white;
+}
